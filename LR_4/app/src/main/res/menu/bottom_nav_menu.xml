@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/verticalRecycler_Fragment"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Дела" />
+
+    <item
+        android:id="@+id/gridRecycler_Fragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Галерея"/>
+    <item
+        android:id="@+id/trafficLight_Fragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Светофор"/>
+    <item
+        android:id="@+id/counter_Fragment"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Счетчик"/>
+
+</menu>

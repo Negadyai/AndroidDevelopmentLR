@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CounterFragment.CounterFragment">
+
+    <Button
+        android:id="@+id/crowCounterButton"
+        android:layout_width="174dp"
+        android:layout_height="54dp"
+        android:onClick="OnCountCrow"
+        android:text="Добавить ворон"
+        android:translationX="130dp"
+        android:translationY="350dp" />
+
+    <TextView
+        android:id="@+id/textCounterCrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="150dp"
+        android:translationY="300dp" />
+
+    <Button
+        android:id="@+id/catCounterButton"
+        android:layout_width="180dp"
+        android:layout_height="49dp"
+        android:onClick="OnCountCat"
+        android:text="Добавить котов"
+        android:translationX="130dp"
+        android:translationY="500dp" />
+
+    <TextView
+        android:id="@+id/textCounterCat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:translationX="150dp"
+        android:translationY="450dp" />
+
+</FrameLayout>

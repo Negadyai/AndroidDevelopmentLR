@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.lr_4.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+
+    <fragment
+        android:id="@+id/counter_Fragment"
+        android:name="com.example.lr_4.ui.CounterFragment.CounterFragment"
+        android:label="Счетчик"
+        tools:layout="@layout/fragment_counter" />
+    <fragment
+        android:id="@+id/trafficLight_Fragment"
+        android:name="com.example.lr_4.ui.TrafficLightFragment.TrafficLightFragment"
+        android:label="Светофор"
+        tools:layout="@layout/fragment_traffic_light" />
+    <fragment
+        android:id="@+id/gridRecycler_Fragment"
+        android:name="com.example.lr_4.ui.GridRecyclerFragment.GridRecyclerFragment"
+        android:label="Галерея"
+        tools:layout="@layout/fragment_grid_recycler" />
+    <fragment
+        android:id="@+id/verticalRecycler_Fragment"
+        android:name="com.example.lr_4.ui.VecrticalRecyclerFragment.VerticalRecyclerFragment"
+        android:label="Дела"
+        tools:layout="@layout/fragment_vertical_recycler" />
+</navigation>
